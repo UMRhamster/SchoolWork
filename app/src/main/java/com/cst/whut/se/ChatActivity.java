@@ -125,9 +125,4 @@ public class ChatActivity extends AppCompatActivity {
         transaction.commit();
     }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-
-    }
 }
